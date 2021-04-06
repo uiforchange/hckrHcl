@@ -2,6 +2,16 @@
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 9.1.15.
 
+## Problem Statement
+- Use and extend the existing boilerplate code so that it fetches and displays the list of users from https://jsonplaceholder.typicode.com/users API endpoint.
+   - Add functionality to filter the list of users based on column specified
+        - Make use of Reactive Form to achieve the same.
+   - Write unit tests
+   - Use Typescript types wherever deemed necessary
+   - Follow proper coding conventions and best practices
+
+- Note: Create a separate branch to work on the problem. Commit code and raise a Pull Request to be merged to the `main` branch.
+
 ## Development server
 
 Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
