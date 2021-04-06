@@ -2,12 +2,12 @@
   <div class="control-panel">
     <form>
       <label class="select">Select column to filter:
-        <select formControlName="filter">
+        <select>
           <option *ngFor="let opt of options" [value]="opt.value">{{ opt.text }}</option>
         </select>
       </label>
       <label class="input">Enter filter keywords:
-        <input type="text" formControlName="input" />
+        <input type="text" placeholder="filter keywords go here..." />
       </label>
     </form>
   </div>
