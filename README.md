@@ -10,6 +10,8 @@ This project was generated with [Angular CLI](https://github.com/angular/angular
    - Use/Create Typescript types wherever deemed necessary
    - Follow proper coding conventions and best practices
 
+Below note is not applicable for Hackerrank test.
+
 - Note: Create a separate branch to work on the problem. Commit code and raise a Pull Request to be merged to the `main` branch.
 
 ## Development server
