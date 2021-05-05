@@ -53,7 +53,7 @@ export class UsersComponent implements OnInit {
     private readonly formBuilder: FormBuilder
   ) {}
 
-  public ngOnInit(): void {
+  ngOnInit(): void {
     this.userService.getData().subscribe((response: UserData[]) => {
       this.userData = response;
     });
@@ -67,7 +67,10 @@ export class UsersComponent implements OnInit {
         ? this.filterGroup.get('selectedType').value
         : 'name';
       this.filterValue = this.userData.filter(
-        data => data[selectedType].indexOf(value.filterInput) !== -1
+        data =>
+          data[selectedType]
+            .toLowerCase()
+            .indexOf(value.filterInput.toLowerCase()) !== -1
       );
     });
   }
